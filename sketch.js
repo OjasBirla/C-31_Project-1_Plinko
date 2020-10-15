@@ -49,10 +49,10 @@ function draw() {
 
   ground.display();
 
-  for(var b = 0; b < divisions.lenght; b++){
+  for(var b = 0; b < divisions.length; b++){
 	divisions[b].display;
   }  
-  for(var f = 0; f < plinkos.lenght; f++){
+  for(var f = 0; f < plinkos.length; f++){
 	divisions[f].display;
   } 
 
@@ -60,7 +60,7 @@ function draw() {
 	particales.push(new Plinko(random(width/2 - 10, width/2 + 10), 275, 10));
   }
 
-  for(var g = 0; g < plinkos.lenght; g++){
+  for(var g = 0; g < plinkos.length; g++){
 	particales[g].display;
   }
 
